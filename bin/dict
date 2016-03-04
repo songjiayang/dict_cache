@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "dict_cache"
+
+DictCache::Dict.translate(ARGV.join ' ')
